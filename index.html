@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#5b0c17" />
+  <title>فرح محمود ودينا</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="weddingAudio" src="wedding-song.mp3" preload="auto" loop></audio>
+
+  <div class="noise"></div>
+  <div class="lights" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <main>
+    <section id="cover" class="screen cover active">
+      <div class="ornament top">✦ ✦ ✦</div>
+      <p class="eyebrow">الفرحة فرحتنا… والليلة ليلتنا</p>
+      <h1 class="names">محمود <span>و</span> دينا</h1>
+      <p class="tagline">عليك مواصلاتك<br><strong>وعلينا انبساطك</strong></p>
+
+      <button id="openInvite" class="open-btn" type="button">
+        <span class="btn-shine"></span>
+        دوس هنا وافتح الفرح 🎉
+      </button>
+
+      <p class="hint">الصوت هيبدأ بعد ما تدوس</p>
+      <div class="ornament bottom">✦ ✦ ✦</div>
+    </section>
+
+    <section id="invite" class="screen invite" aria-hidden="true">
+      <div id="confetti" class="confetti"></div>
+      <div class="card">
+        <div class="stamp">ليلة العمر</div>
+        <p class="mini">بكل الحب والفرحة</p>
+        <h2>محمود <span>♥</span> دينا</h2>
+        <p class="invite-copy">مستنينكم تشاركونا أحلى ليلة<br>وتكملوا الفرحة معانا للصبح</p>
+
+        <div class="details">
+          <div class="detail-box">
+            <span class="icon">📅</span>
+            <small>الموعد</small>
+            <strong>26 أكتوبر 2026</strong>
+          </div>
+          <div class="detail-box">
+            <span class="icon">📍</span>
+            <small>المكان</small>
+            <strong>افتح اللوكيشن وتعالى على طول</strong>
+          </div>
+        </div>
+
+        <a class="location-btn" href="https://maps.app.goo.gl/T3mvtuS2" target="_blank" rel="noopener noreferrer">افتح اللوكيشن 🗺️</a>
+
+        <div class="slogan">
+          <span>عليك مواصلاتك</span>
+          <b>وعلينا انبساطك</b>
+        </div>
+
+        <p class="footer-note">ممنوع الاعتذارات… الليلة ناقصة بيكم ❤️</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
